@@ -3,6 +3,6 @@
 3    package="com.co.sentinelmobilekmm" >
 4
 5    <uses-sdk android:minSdkVersion="24" />
-5-->/Users/jass/Desktop/Sentinel/ProjectKMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18254048885027482807.xml
+5-->/Users/jass/Desktop/Sentinel/ProjectKMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6767888728517895753.xml
 6
 7</manifest>

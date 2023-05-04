@@ -8,8 +8,6 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
@@ -19,19 +17,16 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.Button
-import androidx.compose.material.CircularProgressIndicator
-import androidx.compose.material.ProgressIndicatorDefaults
 import androidx.compose.material.Text
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.compose.rememberNavController
-import com.co.sentinelmobilekmm.LoginViewModel
+import com.co.sentinelmobilekmm.Login.LoginViewModel
 import com.co.sentinelmobilekmm.android.UI.EmailTextField
 import com.co.sentinelmobilekmm.android.UI.LoadingAnimation
 import com.co.sentinelmobilekmm.android.UI.PasswordTextField
@@ -40,23 +35,26 @@ import dev.icerock.moko.mvvm.flow.compose.observeAsActions
 @Composable
 fun LoginScreen(navController: NavHostController, viewModel: LoginViewModel = viewModel()) {
 
-    //val context: Context = LocalContext.current
+    val context: Context = LocalContext.current
 
     val email: String by viewModel.email.collectAsState()
     val password: String by viewModel.password.collectAsState()
-    val isValidEmail: Boolean by viewModel.isValidEmail.collectAsState()
+    //val isValidEmail: Boolean by viewModel.isValidEmail.collectAsState()
     val isLoginButtonEnabled: Boolean by viewModel.isButtonEnabled.collectAsState()
     val isLoading: Boolean by viewModel.isLoading.collectAsState()
 
     viewModel.actions.observeAsActions { action ->
         when (action) {
             LoginViewModel.Action.LoginSuccess ->
-                //Toast.makeText(context, "login success!", Toast.LENGTH_SHORT).show()
                 {
-                    println("Datta: ${email} - ${isValidEmail} - ${password}")
+                    println("Datta: ${email} - ${password}")
                     navController.popBackStack()
                     navController.navigate(AppScreens.MainScreen.route)
                 }
+
+            else -> {
+                Toast.makeText(context, "login error!", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 
@@ -77,7 +75,7 @@ fun LoginScreen(navController: NavHostController, viewModel: LoginViewModel = vi
             Image(painter = painterResource(R.drawable.androidsvg),
                 contentDescription = "Imagen login",
                 Modifier.size(150.dp, 150.dp))
-            EmailTextField(email = email, onValueChange = { newValue -> viewModel.email.value = newValue }, isValidEmail = { newValue -> viewModel.isValidEmail.value = newValue }, imeAction = ImeAction.Next)
+            EmailTextField(email = email, onValueChange = { newValue -> viewModel.email.value = newValue }, imeAction = ImeAction.Next)
             PasswordTextField(password = password, onValueChange = { newValue -> viewModel.password.value = newValue }, imeAction = ImeAction.Done, withButton = true, callback = viewModel::onLoginPressed)
             Spacer(modifier = Modifier.weight(1f))
             Button(onClick = viewModel::onLoginPressed,

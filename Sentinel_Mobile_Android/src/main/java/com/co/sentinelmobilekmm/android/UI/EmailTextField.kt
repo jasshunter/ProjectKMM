@@ -21,7 +21,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun EmailTextField(email: String, onValueChange: (String) -> Unit, isValidEmail: (Boolean) -> Unit, imeAction: ImeAction) {
+fun EmailTextField(email: String, onValueChange: (String) -> Unit, imeAction: ImeAction) {
     // Creamos un estado mutable para almacenar el email
     //val email = remember { mutableStateOf("") }
     // Configuramos las opciones de teclado para mostrar un teclado adecuado para emails
@@ -56,7 +56,7 @@ fun EmailTextField(email: String, onValueChange: (String) -> Unit, isValidEmail:
         label = { Text(text = "Correo electrónico") },
         placeholder = { Text(text = "Correo electrónico") },
         // Añadimos una validación para comprobar si el email es válido
-        isError = email.isNotEmpty() && !isValid,
+        //isError = email.isNotEmpty() && !isValid,
         // El textfield ocupa todo el ancho de la pantalla
         modifier = Modifier
             .fillMaxWidth()
@@ -64,7 +64,7 @@ fun EmailTextField(email: String, onValueChange: (String) -> Unit, isValidEmail:
         shape = RoundedCornerShape(8.dp)
     )
 
-    isValidEmail(isValid)
+    //isValidEmail(isValid)
 }
 
 fun isEmailValid(email: String): Boolean {
@@ -74,5 +74,5 @@ fun isEmailValid(email: String): Boolean {
 @Preview(showBackground = true)
 @Composable
 fun EmailTextFieldPreview() {
-    EmailTextField(email = "", onValueChange = {}, isValidEmail = {}, imeAction = ImeAction.Next)
+    EmailTextField(email = "", onValueChange = {}, imeAction = ImeAction.Next)
 }
