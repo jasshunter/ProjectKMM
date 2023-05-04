@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.co.sentinelmobilekmm.android.Sentinel_Mobile_Android-merged_res-48:/drawable_eyeopen.xml.flat",
+        "source": "com.co.sentinelmobilekmm.android.Sentinel_Mobile_Android-main-50:/drawable/eyeopen.xml"
+    },
+    {
+        "merged": "com.co.sentinelmobilekmm.android.Sentinel_Mobile_Android-merged_res-48:/drawable_androidsvg.xml.flat",
+        "source": "com.co.sentinelmobilekmm.android.Sentinel_Mobile_Android-main-50:/drawable/androidsvg.xml"
+    },
+    {
+        "merged": "com.co.sentinelmobilekmm.android.Sentinel_Mobile_Android-merged_res-48:/drawable_eyeclosed.xml.flat",
+        "source": "com.co.sentinelmobilekmm.android.Sentinel_Mobile_Android-main-50:/drawable/eyeclosed.xml"
+    }
+]

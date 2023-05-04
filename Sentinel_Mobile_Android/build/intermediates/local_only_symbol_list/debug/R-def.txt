@@ -1,0 +1,6 @@
+R_DEF: Internal format may change without notice
+local
+drawable androidsvg
+drawable eyeclosed
+drawable eyeopen
+style AppTheme
