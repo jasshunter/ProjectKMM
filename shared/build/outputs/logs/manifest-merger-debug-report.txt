@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jass/Desktop/SentinelMobile/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12201492736324967959.xml:2:13-83
-INJECTED from /Users/jass/Desktop/SentinelMobile/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12201492736324967959.xml:2:13-83
-INJECTED from /Users/jass/Desktop/SentinelMobile/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12201492736324967959.xml:2:13-83
+ADDED from /Users/jass/Desktop/Sentinel/ProjectKMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18254048885027482807.xml:2:13-83
+INJECTED from /Users/jass/Desktop/Sentinel/ProjectKMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18254048885027482807.xml:2:13-83
+INJECTED from /Users/jass/Desktop/Sentinel/ProjectKMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18254048885027482807.xml:2:13-83
 	package
-		INJECTED from /Users/jass/Desktop/SentinelMobile/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12201492736324967959.xml
-		ADDED from /Users/jass/Desktop/SentinelMobile/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12201492736324967959.xml:2:13-83
-		INJECTED from /Users/jass/Desktop/SentinelMobile/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12201492736324967959.xml
+		INJECTED from /Users/jass/Desktop/Sentinel/ProjectKMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18254048885027482807.xml
+		ADDED from /Users/jass/Desktop/Sentinel/ProjectKMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18254048885027482807.xml:2:13-83
+		INJECTED from /Users/jass/Desktop/Sentinel/ProjectKMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18254048885027482807.xml
 	xmlns:android
-		ADDED from /Users/jass/Desktop/SentinelMobile/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12201492736324967959.xml:2:23-81
+		ADDED from /Users/jass/Desktop/Sentinel/ProjectKMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18254048885027482807.xml:2:23-81
 uses-sdk
-INJECTED from /Users/jass/Desktop/SentinelMobile/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12201492736324967959.xml reason: use-sdk injection requested
-INJECTED from /Users/jass/Desktop/SentinelMobile/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12201492736324967959.xml
-INJECTED from /Users/jass/Desktop/SentinelMobile/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12201492736324967959.xml
-INJECTED from /Users/jass/Desktop/SentinelMobile/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12201492736324967959.xml
-INJECTED from /Users/jass/Desktop/SentinelMobile/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12201492736324967959.xml
+INJECTED from /Users/jass/Desktop/Sentinel/ProjectKMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18254048885027482807.xml reason: use-sdk injection requested
+INJECTED from /Users/jass/Desktop/Sentinel/ProjectKMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18254048885027482807.xml
+INJECTED from /Users/jass/Desktop/Sentinel/ProjectKMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18254048885027482807.xml
+INJECTED from /Users/jass/Desktop/Sentinel/ProjectKMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18254048885027482807.xml
+INJECTED from /Users/jass/Desktop/Sentinel/ProjectKMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18254048885027482807.xml
 	android:targetSdkVersion
-		INJECTED from /Users/jass/Desktop/SentinelMobile/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12201492736324967959.xml
-		ADDED from /Users/jass/Desktop/SentinelMobile/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12201492736324967959.xml
-		INJECTED from /Users/jass/Desktop/SentinelMobile/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12201492736324967959.xml
+		INJECTED from /Users/jass/Desktop/Sentinel/ProjectKMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18254048885027482807.xml
+		ADDED from /Users/jass/Desktop/Sentinel/ProjectKMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18254048885027482807.xml
+		INJECTED from /Users/jass/Desktop/Sentinel/ProjectKMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18254048885027482807.xml
 	android:minSdkVersion
-		INJECTED from /Users/jass/Desktop/SentinelMobile/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12201492736324967959.xml
-		ADDED from /Users/jass/Desktop/SentinelMobile/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12201492736324967959.xml
-		INJECTED from /Users/jass/Desktop/SentinelMobile/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12201492736324967959.xml
+		INJECTED from /Users/jass/Desktop/Sentinel/ProjectKMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18254048885027482807.xml
+		ADDED from /Users/jass/Desktop/Sentinel/ProjectKMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18254048885027482807.xml
+		INJECTED from /Users/jass/Desktop/Sentinel/ProjectKMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18254048885027482807.xml

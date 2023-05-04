@@ -1,5 +1,6 @@
 package com.co.sentinelmobilekmm
 
+import com.co.sentinelmobilekmm.NetworkQuery.NetworkQuery
 import dev.icerock.moko.mvvm.flow.CFlow
 import dev.icerock.moko.mvvm.flow.CMutableStateFlow
 import dev.icerock.moko.mvvm.flow.CStateFlow
@@ -36,8 +37,14 @@ class LoginViewModel : ViewModel() {
         if (password.value.isNotEmpty() && isValidEmail.value) {
             _isLoading.value = true
             viewModelScope.launch {
-                delay(1000)
-                _isLoading.value = false
+                NetworkQuery().greeting2(url = "https://jsonplaceholder.typicode.com/posts", successful = { response ->
+                    print("RRR: ${response.first().title ?: "N"}")
+                    _isLoading.value = false
+                }, error = {
+                    _isLoading.value = false
+                })
+                //delay(1000)
+                //_isLoading.value = false
                 _actions.send(Action.LoginSuccess)
             }
         }

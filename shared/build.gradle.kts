@@ -1,6 +1,7 @@
 plugins {
     kotlin("multiplatform")
     kotlin("native.cocoapods")
+    kotlin("plugin.serialization") version "1.8.10"
     id("com.android.library")
     id("dev.icerock.moko.kswift")
 }
@@ -34,12 +35,16 @@ kotlin {
     }
     
     sourceSets {
+        val ktorVersion = "2.3.0"
         val commonMain by getting {
             dependencies {
-                api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1-native-mt")
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
 
                 api("dev.icerock.moko:mvvm-core:$mokoMvvmVersion")
                 api("dev.icerock.moko:mvvm-flow:$mokoMvvmVersion")
+
+                implementation("io.ktor:ktor-client-core:$ktorVersion")
+                implementation("io.ktor:ktor-serialization-kotlinx-json:$ktorVersion")
             }
         }
         val commonTest by getting {
@@ -50,6 +55,8 @@ kotlin {
         val androidMain by getting {
             dependencies {
                 api("dev.icerock.moko:mvvm-flow-compose:$mokoMvvmVersion")
+
+                implementation("io.ktor:ktor-client-okhttp:$ktorVersion")
             }
         }
         val androidUnitTest by getting
@@ -61,6 +68,9 @@ kotlin {
             iosX64Main.dependsOn(this)
             iosArm64Main.dependsOn(this)
             iosSimulatorArm64Main.dependsOn(this)
+            dependencies {
+                implementation("io.ktor:ktor-client-darwin:$ktorVersion")
+            }
         }
         val iosX64Test by getting
         val iosArm64Test by getting
