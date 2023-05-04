@@ -40,15 +40,15 @@ class LoginViewModel : ViewModel() {
         if (password.value.isNotEmpty() && email.value.isNotBlank()) {
             _isLoading.value = true
             viewModelScope.launch {
-                Login()
+                login()
             }
         }
     }
 
-    suspend fun Login() {
+    private suspend fun login() {
 
         var ac: Action = Action.LoginError
-        val user = LoginRequestModel("${email.value}", "${password.value}")
+        val user = LoginRequestModel(email.value, password.value)
 
         NetworkQuery().ktorPost(url = Api().login, body = Json.encodeToString(user), successful = { response ->
             val deco = Json.decodeFromString<LoginResponseModel>(response)

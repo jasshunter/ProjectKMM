@@ -144,28 +144,6 @@ fun ButtonClick(
     }
 }
 
-class MyViewModel : ViewModel() {
-    // Dialog box
-    var open = MutableLiveData<Boolean>()
-
-    fun startThread() {
-        viewModelScope.launch {
-
-            withContext(Dispatchers.Default) {
-                // Do the background work here
-                // I'm adding delay
-                delay(3000)
-            }
-
-            closeDialog()
-        }
-    }
-
-    private fun closeDialog() {
-        open.value = false
-    }
-}
-
 @Preview(showBackground = true)
 @Composable
 fun LoadingAnimationPreview() {
