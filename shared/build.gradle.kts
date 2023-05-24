@@ -27,7 +27,8 @@ kotlin {
         ios.deploymentTarget = "14.1"
         podfile = project.file("../Sentinel_Mobile_iOS/Podfile")
         framework {
-            baseName = "shared"
+            baseName = "MultiPlatformLibrary"
+            isStatic = false
 
             export("dev.icerock.moko:mvvm-core:$mokoMvvmVersion")
             export("dev.icerock.moko:mvvm-flow:$mokoMvvmVersion")
