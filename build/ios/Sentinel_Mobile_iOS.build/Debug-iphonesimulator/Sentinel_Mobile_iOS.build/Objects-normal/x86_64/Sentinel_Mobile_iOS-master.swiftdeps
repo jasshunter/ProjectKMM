@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
 options: "2d77665c6e0fbde2dede111f656f7fe770caeeefc4191c6bfecbf4599f8feb8b"
-build_start_time: [1684905314, 302811000]
-build_end_time: [1684905316, 664773000]
+build_start_time: [1684905958, 503935000]
+build_end_time: [1684905960, 456376000]
 inputs:
   "/Users/jass/Desktop/Sentinel/ProjectKMM/Sentinel_Mobile_iOS/Sentinel_Mobile_iOS/ContentView.swift": [1684898864, 185753487]
   "/Users/jass/Desktop/Sentinel/ProjectKMM/Sentinel_Mobile_iOS/Sentinel_Mobile_iOS/iOSApp.swift": [1683135255, 515458584]

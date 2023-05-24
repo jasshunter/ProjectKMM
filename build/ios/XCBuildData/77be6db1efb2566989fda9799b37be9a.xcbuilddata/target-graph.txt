@@ -1,8 +1,0 @@
-Target dependency graph (4 targets)
-mokoMvvmFlowSwiftUI in Pods, no dependencies
-shared in Pods, no dependencies
-Pods-Sentinel_Mobile_iOS in Pods, depends on:
-mokoMvvmFlowSwiftUI in Pods (explicit)
-shared in Pods (explicit)
-Sentinel_Mobile_iOS in Sentinel_Mobile_iOS, depends on:
-Pods-Sentinel_Mobile_iOS in Pods (implicit dependency via file 'Pods_Sentinel_Mobile_iOS.framework' in build phase 'Link Binary')
