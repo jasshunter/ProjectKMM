@@ -4,6 +4,7 @@ plugins {
     kotlin("plugin.serialization") version "1.8.10"
     id("com.android.library")
     id("dev.icerock.moko.kswift")
+    id("io.realm.kotlin") version "1.8.0"
 }
 
 val mokoMvvmVersion = "0.15.0"
@@ -36,24 +37,38 @@ kotlin {
     }
     
     sourceSets {
+        val koin = "3.4.0"
         val ktorVersion = "2.3.0"
         val commonMain by getting {
             dependencies {
+                //koin
+                implementation("io.insert-koin:koin-core:${koin}")
+                implementation("io.insert-koin:koin-test:${koin}")
+
+                //corrutinas
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
 
+                //moko: permite compartir los ViewModels
                 api("dev.icerock.moko:mvvm-core:$mokoMvvmVersion")
                 api("dev.icerock.moko:mvvm-flow:$mokoMvvmVersion")
 
+                //ktor
                 implementation("io.ktor:ktor-client-core:$ktorVersion")
                 implementation("io.ktor:ktor-serialization-kotlinx-json:$ktorVersion")
                 implementation("io.ktor:ktor-client-content-negotiation:$ktorVersion")
+                implementation("io.ktor:ktor-client-auth:$ktorVersion")
+
+                //realm
+                implementation("io.realm.kotlin:library-base:1.8.0")
             }
         }
         val commonTest by getting {
             dependencies {
                 implementation(kotlin("test"))
+                implementation(kotlin("script-runtime"))
             }
         }
+
         val androidMain by getting {
             dependencies {
                 api("dev.icerock.moko:mvvm-flow-compose:$mokoMvvmVersion")

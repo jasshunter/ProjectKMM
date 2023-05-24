@@ -83,50 +83,56 @@
 49                android:value="androidx.startup" />
 49-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/jass/.gradle/caches/transforms-3/2a618bc118a0044ddd5b19b7ded8bdbb/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
 50            <meta-data
-50-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-51                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-51-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+50-->[io.realm.kotlin:cinterop-android:1.8.0] /Users/jass/.gradle/caches/transforms-3/1a5105f2581ee67c2f303af82cf346aa/transformed/cinterop-release/AndroidManifest.xml:32:13-34:52
+51                android:name="io.realm.kotlin.internal.RealmInitializer"
+51-->[io.realm.kotlin:cinterop-android:1.8.0] /Users/jass/.gradle/caches/transforms-3/1a5105f2581ee67c2f303af82cf346aa/transformed/cinterop-release/AndroidManifest.xml:33:17-73
 52                android:value="androidx.startup" />
-52-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-53        </provider>
-54
-55        <receiver
-55-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-56            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-56-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
-57            android:directBootAware="false"
-57-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
-58            android:enabled="true"
-58-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-59            android:exported="true"
-59-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-60            android:permission="android.permission.DUMP" >
-60-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
-61            <intent-filter>
-61-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
-62                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-62-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-62-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
-63            </intent-filter>
+52-->[io.realm.kotlin:cinterop-android:1.8.0] /Users/jass/.gradle/caches/transforms-3/1a5105f2581ee67c2f303af82cf346aa/transformed/cinterop-release/AndroidManifest.xml:34:17-49
+53            <meta-data
+53-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+54                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+54-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+55                android:value="androidx.startup" />
+55-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+56        </provider>
+57
+58        <receiver
+58-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+59            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+59-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+60            android:directBootAware="false"
+60-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+61            android:enabled="true"
+61-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+62            android:exported="true"
+62-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+63            android:permission="android.permission.DUMP" >
+63-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
 64            <intent-filter>
-64-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
-65                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-65-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-65-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+64-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+65                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+65-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+65-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
 66            </intent-filter>
 67            <intent-filter>
-67-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
-68                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-68-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-68-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+67-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+68                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
 69            </intent-filter>
 70            <intent-filter>
-70-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
-71                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-71-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-71-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+71                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
 72            </intent-filter>
-73        </receiver>
-74    </application>
-75
-76</manifest>
+73            <intent-filter>
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+74                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+75            </intent-filter>
+76        </receiver>
+77    </application>
+78
+79</manifest>

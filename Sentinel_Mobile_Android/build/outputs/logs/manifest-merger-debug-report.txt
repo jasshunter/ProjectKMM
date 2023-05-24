@@ -48,14 +48,18 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1] /Users/jass/.
 MERGED from [androidx.compose.ui:ui:1.4.0] /Users/jass/.gradle/caches/transforms-3/9baab562c2342830386c5b8625fbebbb/transformed/ui-1.4.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.runtime:runtime-saveable:1.4.0] /Users/jass/.gradle/caches/transforms-3/5cb4722341b158f296c4b85d7772ccb3/transformed/runtime-saveable-1.4.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.runtime:runtime:1.4.0] /Users/jass/.gradle/caches/transforms-3/45d65704b6d1ea1053323e35c78f6b35/transformed/runtime-1.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.realm.kotlin:library-base-android:1.8.0] /Users/jass/.gradle/caches/transforms-3/661855cd6fe785c36ddd95085e89ef05/transformed/library-base-release/AndroidManifest.xml:18:1-26:12
 MERGED from [dev.icerock.moko:mvvm-internal-android:0.15.0] /Users/jass/.gradle/caches/transforms-3/12eba87671c4291a65599f9bd8f7e81d/transformed/mvvm-internal-debug/AndroidManifest.xml:2:1-9:12
+MERGED from [io.realm.kotlin:cinterop-android:1.8.0] /Users/jass/.gradle/caches/transforms-3/1a5105f2581ee67c2f303af82cf346aa/transformed/cinterop-release/AndroidManifest.xml:18:1-38:12
 MERGED from [dev.icerock.moko:kswift-runtime-android-debug:0.4.0] /Users/jass/.gradle/caches/transforms-3/8f7a5edba181d63157bc1fa5940c8983/transformed/kswift-runtime-debug/AndroidManifest.xml:2:1-9:12
+MERGED from [org.mongodb.kbson:kbson-android-debug:0.2.0] /Users/jass/.gradle/caches/transforms-3/abd06c8028dfc606c78bdcc542929471/transformed/kbson-debug/AndroidManifest.xml:18:1-27:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jass/.gradle/caches/transforms-3/8b953c6ac8de5ea19e4f5802c7703023/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/jass/.gradle/caches/transforms-3/517957c85e3a15ce8f462c4d80b38ce2/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/jass/.gradle/caches/transforms-3/0f37047e62927e9bb7ffa66bfc1b9908/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/jass/.gradle/caches/transforms-3/cf6a67d81006a0eb54d121949b55d6ed/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/jass/.gradle/caches/transforms-3/ed3cf541eb61dd11589760f66f319111/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/jass/.gradle/caches/transforms-3/580f083abe15b950daca1af4f7323417/transformed/relinker-1.4.5/AndroidManifest.xml:2:1-7:12
 INJECTED from /Users/jass/Desktop/Sentinel/ProjectKMM/Sentinel_Mobile_Android/src/main/AndroidManifest.xml:2:1-19:12
 INJECTED from /Users/jass/Desktop/Sentinel/ProjectKMM/Sentinel_Mobile_Android/src/main/AndroidManifest.xml:2:1-19:12
 INJECTED from /Users/jass/Desktop/Sentinel/ProjectKMM/Sentinel_Mobile_Android/src/main/AndroidManifest.xml:2:1-19:12
@@ -83,6 +87,8 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/jass/.gradle/cac
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/jass/.gradle/caches/transforms-3/2a618bc118a0044ddd5b19b7ded8bdbb/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.9.0] /Users/jass/.gradle/caches/transforms-3/e754205c7e724d5e8b27acc43b72e6ab/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.9.0] /Users/jass/.gradle/caches/transforms-3/e754205c7e724d5e8b27acc43b72e6ab/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [io.realm.kotlin:cinterop-android:1.8.0] /Users/jass/.gradle/caches/transforms-3/1a5105f2581ee67c2f303af82cf346aa/transformed/cinterop-release/AndroidManifest.xml:26:5-36:19
+MERGED from [io.realm.kotlin:cinterop-android:1.8.0] /Users/jass/.gradle/caches/transforms-3/1a5105f2581ee67c2f303af82cf346aa/transformed/cinterop-release/AndroidManifest.xml:26:5-36:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jass/.gradle/caches/transforms-3/8b953c6ac8de5ea19e4f5802c7703023/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
@@ -209,10 +215,16 @@ MERGED from [androidx.compose.runtime:runtime-saveable:1.4.0] /Users/jass/.gradl
 MERGED from [androidx.compose.runtime:runtime-saveable:1.4.0] /Users/jass/.gradle/caches/transforms-3/5cb4722341b158f296c4b85d7772ccb3/transformed/runtime-saveable-1.4.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.runtime:runtime:1.4.0] /Users/jass/.gradle/caches/transforms-3/45d65704b6d1ea1053323e35c78f6b35/transformed/runtime-1.4.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.runtime:runtime:1.4.0] /Users/jass/.gradle/caches/transforms-3/45d65704b6d1ea1053323e35c78f6b35/transformed/runtime-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [io.realm.kotlin:library-base-android:1.8.0] /Users/jass/.gradle/caches/transforms-3/661855cd6fe785c36ddd95085e89ef05/transformed/library-base-release/AndroidManifest.xml:22:5-24:41
+MERGED from [io.realm.kotlin:library-base-android:1.8.0] /Users/jass/.gradle/caches/transforms-3/661855cd6fe785c36ddd95085e89ef05/transformed/library-base-release/AndroidManifest.xml:22:5-24:41
 MERGED from [dev.icerock.moko:mvvm-internal-android:0.15.0] /Users/jass/.gradle/caches/transforms-3/12eba87671c4291a65599f9bd8f7e81d/transformed/mvvm-internal-debug/AndroidManifest.xml:5:5-7:41
 MERGED from [dev.icerock.moko:mvvm-internal-android:0.15.0] /Users/jass/.gradle/caches/transforms-3/12eba87671c4291a65599f9bd8f7e81d/transformed/mvvm-internal-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [io.realm.kotlin:cinterop-android:1.8.0] /Users/jass/.gradle/caches/transforms-3/1a5105f2581ee67c2f303af82cf346aa/transformed/cinterop-release/AndroidManifest.xml:22:5-24:41
+MERGED from [io.realm.kotlin:cinterop-android:1.8.0] /Users/jass/.gradle/caches/transforms-3/1a5105f2581ee67c2f303af82cf346aa/transformed/cinterop-release/AndroidManifest.xml:22:5-24:41
 MERGED from [dev.icerock.moko:kswift-runtime-android-debug:0.4.0] /Users/jass/.gradle/caches/transforms-3/8f7a5edba181d63157bc1fa5940c8983/transformed/kswift-runtime-debug/AndroidManifest.xml:5:5-7:41
 MERGED from [dev.icerock.moko:kswift-runtime-android-debug:0.4.0] /Users/jass/.gradle/caches/transforms-3/8f7a5edba181d63157bc1fa5940c8983/transformed/kswift-runtime-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [org.mongodb.kbson:kbson-android-debug:0.2.0] /Users/jass/.gradle/caches/transforms-3/abd06c8028dfc606c78bdcc542929471/transformed/kbson-debug/AndroidManifest.xml:23:5-25:41
+MERGED from [org.mongodb.kbson:kbson-android-debug:0.2.0] /Users/jass/.gradle/caches/transforms-3/abd06c8028dfc606c78bdcc542929471/transformed/kbson-debug/AndroidManifest.xml:23:5-25:41
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jass/.gradle/caches/transforms-3/8b953c6ac8de5ea19e4f5802c7703023/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
@@ -225,6 +237,8 @@ MERGED from [androidx.tracing:tracing:1.0.0] /Users/jass/.gradle/caches/transfor
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/jass/.gradle/caches/transforms-3/cf6a67d81006a0eb54d121949b55d6ed/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/jass/.gradle/caches/transforms-3/ed3cf541eb61dd11589760f66f319111/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/jass/.gradle/caches/transforms-3/ed3cf541eb61dd11589760f66f319111/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/jass/.gradle/caches/transforms-3/580f083abe15b950daca1af4f7323417/transformed/relinker-1.4.5/AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/jass/.gradle/caches/transforms-3/580f083abe15b950daca1af4f7323417/transformed/relinker-1.4.5/AndroidManifest.xml:5:5-43
 INJECTED from /Users/jass/Desktop/Sentinel/ProjectKMM/Sentinel_Mobile_Android/src/main/AndroidManifest.xml
 INJECTED from /Users/jass/Desktop/Sentinel/ProjectKMM/Sentinel_Mobile_Android/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -245,6 +259,8 @@ provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/jass/.gradle/caches/transforms-3/bf71143d7c0eeacbbe8db4af2c44f0b9/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/jass/.gradle/caches/transforms-3/2a618bc118a0044ddd5b19b7ded8bdbb/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/jass/.gradle/caches/transforms-3/2a618bc118a0044ddd5b19b7ded8bdbb/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [io.realm.kotlin:cinterop-android:1.8.0] /Users/jass/.gradle/caches/transforms-3/1a5105f2581ee67c2f303af82cf346aa/transformed/cinterop-release/AndroidManifest.xml:27:9-35:20
+MERGED from [io.realm.kotlin:cinterop-android:1.8.0] /Users/jass/.gradle/caches/transforms-3/1a5105f2581ee67c2f303af82cf346aa/transformed/cinterop-release/AndroidManifest.xml:27:9-35:20
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/jass/.gradle/caches/transforms-3/0f37047e62927e9bb7ffa66bfc1b9908/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
@@ -289,6 +305,12 @@ uses-permission#com.co.sentinelmobilekmm.android.DYNAMIC_RECEIVER_NOT_EXPORTED_P
 ADDED from [androidx.core:core:1.9.0] /Users/jass/.gradle/caches/transforms-3/e754205c7e724d5e8b27acc43b72e6ab/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.9.0] /Users/jass/.gradle/caches/transforms-3/e754205c7e724d5e8b27acc43b72e6ab/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#io.realm.kotlin.internal.RealmInitializer
+ADDED from [io.realm.kotlin:cinterop-android:1.8.0] /Users/jass/.gradle/caches/transforms-3/1a5105f2581ee67c2f303af82cf346aa/transformed/cinterop-release/AndroidManifest.xml:32:13-34:52
+	android:value
+		ADDED from [io.realm.kotlin:cinterop-android:1.8.0] /Users/jass/.gradle/caches/transforms-3/1a5105f2581ee67c2f303af82cf346aa/transformed/cinterop-release/AndroidManifest.xml:34:17-49
+	android:name
+		ADDED from [io.realm.kotlin:cinterop-android:1.8.0] /Users/jass/.gradle/caches/transforms-3/1a5105f2581ee67c2f303af82cf346aa/transformed/cinterop-release/AndroidManifest.xml:33:17-73
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/jass/.gradle/caches/transforms-3/f2e2ea51a19879429c065a985908b46d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
 	android:value
